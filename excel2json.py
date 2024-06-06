@@ -57,7 +57,7 @@ def excel_to_json(excel_path: str) -> Dict:
             })
 
 
-    return {"cells": cells}
+    return {"content": cells}
 
 
 
